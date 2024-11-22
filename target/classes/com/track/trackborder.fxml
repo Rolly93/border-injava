@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.track.PrimaryController" >
+   <children>
+
+      <Label text="Primary View" />
+      <Button fx:id="primaryButton" text="Switch to Secondary View" onAction="#switchToSecondary"/>
+
+   </children>
+   
+   <HBox alignment="CENTER" spacing="10.0">   
+      <ScrollPane prefWidth="1000.0">
+        <TableView fx:id="myTableView" prefHeight="200.0">
+         <columns>
+            <TableColumn fx:id="Referencia" text="Referencia" prefWidth="100.0" />
+            <TableColumn fx:id="Cliente" text="Cliente" prefWidth="100.0" />
+            <TableColumn fx:id="TipoVehiculo" text="TipoVehiculo" prefWidth="100.0"/>
+            <TableColumn fx:id ="numVehiculo" text ="numVehiculo" prefWidth="100.0"/>
+            <TableColumn fx:id ="ESTATUS" text ="Estatus" prefWidth="100.0"/>
+            <TableColumn fx:id ="scac" text ="Scac" prefWidth="100.0"/>
+            <TableColumn fx:id ="TodFecha" text ="TodFecha" prefWidth="100.0"/>
+            <TableColumn fx:id ="TodHora" text ="TodHora" prefWidth="100.0"/>
+            <TableColumn fx:id ="tnfFecha" text ="TodFecha" prefWidth="100.0"/>
+            <TableColumn fx:id ="tnfHora" text ="TodHora" prefWidth="100.0"/>
+            <TableColumn fx:id ="dxsFecha" text ="TodFecha" prefWidth="100.0"/>
+            <TableColumn fx:id ="dxsHora" text ="TodHora" prefWidth="100.0"/>
+            <TableColumn fx:id="dlyFecha" text="dlyFecha" prefWidth="100.0" />
+            <TableColumn fx:id="dlyTiempo" text="dlyTiempo" prefWidth="100.0" />
+            <TableColumn fx:id="dlyTipo" text="dlyTipo" prefWidth="100.0" />
+            <TableColumn fx:id="afsFecha" text="afsFecha" prefWidth="100.0" />
+            <TableColumn fx:id="afsTiempo" text="afsTiempo" prefWidth="100.0" />
+            <TableColumn fx:id="dpuFecha" text="dpuFecha" prefWidth="100.0" />
+            <TableColumn fx:id="dpuTiempo" text="dpuTiempo" prefWidth="100.0" />
+            <TableColumn fx:id="exrFecha" text="exrFecha" prefWidth="100.0" />
+            <TableColumn fx:id="exrHora" text="exrHora" prefWidth="100.0" />
+            <TableColumn fx:id="exrNotas" text="exrNotas" prefWidth="100.0" />
+            <TableColumn fx:id="eccFecha" text="eccFecha" prefWidth="100.0" />
+            <TableColumn fx:id="eccTiempo" text="eccTiempo" prefWidth="100.0" />
+            <TableColumn fx:id="ilrFecha" text="ilrFecha" prefWidth="100.0" />
+            <TableColumn fx:id="ilrTiempo" text="ilrTiempo" prefWidth="100.0" />
+            <TableColumn fx:id="ilrtipo" text="ilrtipo" prefWidth="100.0" />
+            <TableColumn fx:id="iltNotas" text="iltNotas" prefWidth="100.0" />
+            <TableColumn fx:id="clrFecha" text="clrFecha" prefWidth="100.0" />
+            <TableColumn fx:id="clrTiempo" text="clrTiempo" prefWidth="100.0" />
+            <TableColumn fx:id="st1Fecha" text="st1Fecha" prefWidth="100.0" />
+            <TableColumn fx:id="st1Tiempo" text="st1Tiempo" prefWidth="100.0" />
+            <TableColumn fx:id="st1Notas" text="st1Notas" prefWidth="100.0" />
+            <TableColumn fx:id="tscFecha" text="tscFecha" prefWidth="100.0" />
+            <TableColumn fx:id="tscTiempo" text="tscTiempo" prefWidth="100.0" />
+            <TableColumn fx:id="tscNotas" text="tscNotas" prefWidth="100.0" />
+         </columns>
+        
+      </TableView>
+   </ScrollPane>
+   </HBox>
+   
+</VBox>
